@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-const API_BASE = "http://localhost:3001";
+const API_BASE = "http://3.82.252.20:3001";
 
 function Post() {
   const { handle } = useParams();
