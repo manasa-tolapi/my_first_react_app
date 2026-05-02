@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./App.css";
 
-const API_BASE = "http://localhost:3001";
+const API_BASE = "http://3.82.252.20:3001";
 
 function Home() {
   const [posts, setPosts] = useState([]);
